@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>WEB5A</title>
+		<style>
+			.forms {
+				display: flex;
+				margin-right: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="forms">
+			<form name="WEB5A" onsubmit="event.preventDefault(); sendValuesWEB5A();">
+				<fieldset>
+					<legend>WEB5A</legend>
+					<lable for="valueXA">Enter "x" value</lable>
+					<input type="number" id="valueXA">
+					<br>
+					<lable for="valueYA">Enter "y" value</lable>
+					<input type="number" id="valueYA">
+					<br>
+					<input type="submit">
+					<p id="resultA"></p>
+				</fieldset>
+			</form>
+			<form name="WEB5B" onsubmit="event.preventDefault(); sendValuesWEB5B();">
+				<fieldset>
+					<legend>WEB5B</legend>
+					<lable for="valueNB">Enter "n" value</lable>
+					<input type="number" id="valueNB">
+					<br>
+					<input type="submit">
+					<p id="resultB"></p>
+				</fieldset>
+			</form>
+			<form name="WEB5C" onsubmit="event.preventDefault(); sendValuesWEBD();">
+				<fieldset>
+					<legend>WEBD</legend>
+					<lable for="valueXD">Enter "x" value</lable>
+					<input type="number" id="valueXD">
+					<br>
+					<lable for="valueYD">Enter "y" value</lable>
+					<input type="number" id="valueYD">
+					<br>
+					<lable for="valueND">Enter "n" value</lable>
+					<input type="number" id="valueND">
+					<br>
+					<input type="submit">
+					<p id="resultD"></p>
+				</fieldset>
+			</form>
+		</div>
+		<script src="forms.js"></script>
+	</body>
+</html>

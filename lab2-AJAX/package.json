@@ -1,0 +1,14 @@
+{
+  "name": "lab2-ajax",
+  "version": "1.0.0",
+  "description": "uni subject IP lab2 AJAX",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "doft",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}

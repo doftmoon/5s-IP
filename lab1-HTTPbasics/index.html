@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>lab1-HTMLbasics</title>
+	</head>
+	<body>
+		<h1>Лабораторная работа 1</h1>
+		<a href="https://www.belstu.by/">БГТУ</a>
+		<div>
+			<button onClick="getBrowserInfo()">Информация о браузере</button>
+		</div>
+		<div id="info-holder"></div>
+		<script>
+			getBrowserInfo = () => {
+				const info = document.getElementById("info-holder");
+				info.innerHTML = `
+					<p>appCodeName =${navigator.appCodeName}</p>
+					<p>appname =${navigator.appName}</p>
+					<p>appVersion =${navigator.appVersion}</p>
+					<p>userAgent =${navigator.userAgent}</p>
+				`;
+				console.log("Hello World");
+			}
+		</script>
+	</body>
+</html>
